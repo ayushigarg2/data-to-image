@@ -1,8 +1,12 @@
 extern crate image;
-use image::{RgbImage, Rgb};
+use image::{RgbImage, Rgb, ImageBuffer, Luma};
 
 extern crate rand;
 use rand::Rng;
+
+// We will Create an image, 1080x1920
+// Each pixel is set to either black or white
+// Black Represents 0 and white represents 1
 
 
 fn main() {
